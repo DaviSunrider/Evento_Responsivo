@@ -1,4 +1,7 @@
 @use "hero";
+@use "infos_bar";
+@use "buttons";
+@use "event";
 
 * {
   margin: 0;
@@ -6,6 +9,7 @@
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
   color: #fff;
+  list-style: none;
 }
 
 .container {
